@@ -1,0 +1,17 @@
+{
+    "name": "20109/design-patterns-course",
+    "description": "code examples for design patterns course in php",
+    "authors": [
+        {
+            "name": "ehab"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit" : "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Creational\\": "Creational"
+        }
+    }
+}
